@@ -1,4 +1,4 @@
-package com.matildamared.springcoredemo;
+package com.matildamared.springcoredemo.common;
 
 import org.springframework.stereotype.Component;
 
