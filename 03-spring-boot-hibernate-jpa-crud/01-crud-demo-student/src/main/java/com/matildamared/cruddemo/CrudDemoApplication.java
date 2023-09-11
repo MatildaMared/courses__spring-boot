@@ -32,7 +32,7 @@ public class CrudDemoApplication {
 		System.out.println("Updating student with id 1...");
 		Student student = studentDAO.findById(1);
 		student.setFirstName("Matilda");
-		studentDAO.updateStudent(student);
+		studentDAO.update(student);
 		System.out.println("Done! Updated student: " + student);
 	}
 
